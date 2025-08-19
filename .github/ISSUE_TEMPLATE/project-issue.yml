@@ -3,7 +3,7 @@ description: Blah Blah Blah
 title: "[PROJECT]: <summary>"
 lables: ["test"]
 body:
-  - type: dropdown
+- type: dropdown
   id: client
   attributes:
     label: Client issue?
