@@ -39,9 +39,9 @@ body:
       description: "Please check if you plan to upload images. After posting issue, please attach screenshots to the comment section of your own issue."
       options:
       - label: Yes
-        required: false
+        required: true
       - label: No
-        required: false
+        required: true
     validations: 
-      required: false
+      required: true
 
