@@ -1,6 +1,7 @@
 name: Pallid Sturgeon
-description: Please insert an issue regarding Pallid Sturgeon
-title: "Pallid: <summary>"
+description: Pallid Sturgeon Issue
+title: "TEST"
+placeholder: "Please provide summary"
 labels: ["Pallid"]
 body:
 - type: dropdown
