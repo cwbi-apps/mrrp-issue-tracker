@@ -1,7 +1,7 @@
 name: client issue
 description: Blah Blah Blah
 title: "[PROJECT]: <summary>"
-lables: ["test"]
+labels: ["test"]
 body:
 - type: dropdown
   id: client
