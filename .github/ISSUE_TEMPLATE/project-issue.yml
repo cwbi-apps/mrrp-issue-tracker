@@ -9,6 +9,6 @@ body:
     label: Client issue?
     options:
       - Test 1
-      - Test
-      - Test
+      - Test 2
+      - Test 3
 
