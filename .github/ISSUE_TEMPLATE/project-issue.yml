@@ -1,7 +1,7 @@
 name: Pallid Sturgeon
 description: Pallid Sturgeon Issue
 title: "-- Please provide brief summary --"
-labels: ["Pallid"]
+labels: ["Pallid", "Open"]
 body:
   - type: dropdown
     id: env
