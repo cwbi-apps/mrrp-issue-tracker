@@ -1,14 +1,28 @@
-name: client issue
-description: Blah Blah Blah
-title: "[PROJECT]: <summary>"
-labels: ["test"]
+name: Pallid Sturgeon
+description: Please insert an issue regarding Pallid Sturgeon
+title: "Pallid: <summary>"
+labels: ["Pallid"]
 body:
 - type: dropdown
-  id: client
+  id: env
   attributes:
-    label: Client issue?
+    label: Environment
     options:
-      - Test 1
-      - Test 2
-      - Test 3
+      - TEST
+      - PROD
 
+- type: input
+  id: url
+  attributes: 
+    label: URL Information
+    description: "Please insert information regarding location of issue"
+    placeholder: "i.e. <URL> <this graph>"
+
+- type: textarea
+  id: photos
+  attributes:
+    label: Uploads
+    description: "Drag and drop images here."
+    placeholder: "Here"
+    render: markdown
+    
