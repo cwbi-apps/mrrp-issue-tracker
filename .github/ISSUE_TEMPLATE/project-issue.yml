@@ -32,7 +32,7 @@ body:
     validations: 
       required: true
 
-  - type: checkbox
+  - type: checkboxes
     id: photos
     attributes:
       label: Will you be including screenshots in relation to the issue?
