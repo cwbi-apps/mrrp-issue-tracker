@@ -1,4 +1,4 @@
-name: TEST 1
+name: client issue
 description: Blah Blah Blah
 title: "[PROJECT]: <summary>"
 lables: ["test"]
@@ -6,10 +6,10 @@ body:
   - type: dropdown
   id: client
   attributes:
-    label: Client
+    label: Client issue?
     options:
-      - Test 1
-      - Test 2
-      - Test 3
+      - Test
+      - Test
+      - Test
     vaidations:
       required: true
