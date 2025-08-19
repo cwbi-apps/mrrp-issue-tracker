@@ -37,5 +37,9 @@ body:
     attributes:
       label: Will you be including screenshots in relation to the issue?
       description: "Please check if you plan to upload images. After posting issue, please attach screenshots to the comment section of your own issue."
+      options:
+      - label: Yes
+      - label: No
+    validations: 
       required: false
 
