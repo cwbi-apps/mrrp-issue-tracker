@@ -1,7 +1,6 @@
 name: Pallid Sturgeon
 description: Pallid Sturgeon Issue
-title: "TEST"
-placeholder: "Please provide summary"
+title: "-- Please provide brief summary --"
 labels: ["Pallid"]
 body:
 - type: dropdown
@@ -11,19 +10,33 @@ body:
     options:
       - TEST
       - PROD
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options: 
+      - High
+      - Medium
+      - Low
+    validations:
+      requirement: true
 
-- type: input
-  id: url
-  attributes: 
-    label: URL Information
-    description: "Please insert information regarding location of issue"
-    placeholder: "i.e. <URL> <this graph>"
+  - type: input
+    id: background
+    attributes:
+      label: Background Information
+      description: "Provide details on what the issue is, how to replicate page names & URLs"
+      validations: 
+        required: true
 
-- type: textarea
+- type: checkbox
   id: photos
   attributes:
-    label: Uploads
-    description: "Drag and drop images here."
-    placeholder: "Here"
-    render: markdown
+    label: Will you be including screenshots in relation to the issue?
+    description: Please check if you plan to upload images. After posting issue, please attach screenshots to the comment section of your own issue
+  validations:
+    required: false
     
