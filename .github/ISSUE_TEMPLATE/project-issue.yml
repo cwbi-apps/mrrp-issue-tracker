@@ -1,0 +1,15 @@
+name: TEST 1
+description: Blah Blah Blah
+title: "[PROJECT]: <summary>"
+lables: ["test"]
+body:
+  - type: dropdown
+  id: client
+  attributes:
+    label: Client
+    options:
+      - Test 1
+      - Test 2
+      - Test 3
+    vaidations:
+      required: true
