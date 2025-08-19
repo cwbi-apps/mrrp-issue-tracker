@@ -11,5 +11,5 @@ body:
       - Test
       - Test
       - Test
-    vaidations:
+    validations:
       required: true
