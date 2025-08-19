@@ -23,3 +23,12 @@ body:
         - Low
     validations:
       required: true
+      
+  - type: input
+    id: background
+    attributes:
+      label: Background Information
+      description: "Provide details on what the issue is, how to replicate page names & URLs"
+    validations: 
+      required: true
+
