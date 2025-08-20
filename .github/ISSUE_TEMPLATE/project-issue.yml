@@ -2,7 +2,7 @@ name: Pallid Sturgeon
 description: Pallid Sturgeon Issue
 title: "-- Please provide brief summary --"
 labels: ["Pallid", "Open"]
-assignees: ["jhenr098"]
+assignees: ["jhenr098", "jguevarra"]
 body:
   - type: dropdown
     id: env
