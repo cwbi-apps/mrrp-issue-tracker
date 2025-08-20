@@ -3,6 +3,7 @@ description: Pallid Sturgeon Issue
 title: "-- Please provide brief summary --"
 labels: ["Pallid", "Open"]
 assignees: ["jhenr098", "jguevarra"]
+type: "Bug"
 body:
   - type: dropdown
     id: env
