@@ -3,6 +3,7 @@ description: IMS Issue
 title: "-- Please provide brief summary --"
 labels: ["IMS", "Open"]
 assignees: ["jhenr098","jguevarra"]
+type: "Bug"
 body:
   - type: dropdown
     id: env2
