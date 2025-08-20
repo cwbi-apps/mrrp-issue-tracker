@@ -33,3 +33,19 @@ body:
     validations: 
       required: true
 
+name: Information Management System
+description: IMS Issue
+title: "-- Please provide brief summary --"
+labels: ["IMS", "Open"]
+assignees: ["jhenr098","jguevarra"]
+body:
+  - type: dropdown
+    id: env2
+    attributes: 
+      label: Environment
+      options:
+        - TEST
+        - PROD
+      validations:
+        required: true
+
