@@ -2,6 +2,7 @@ name: Pallid Sturgeon
 description: Pallid Sturgeon Issue
 title: "-- Please provide brief summary --"
 labels: ["Pallid", "Open"]
+assignees: ["jhenr098"]
 body:
   - type: dropdown
     id: env
@@ -31,17 +32,4 @@ body:
       description: "Provide details on what the issue is, how to replicate page names & URLs"
     validations: 
       required: true
-
-  - type: checkboxes
-    id: photos
-    attributes:
-      label: Will you be including screenshots in relation to the issue?
-      description: "Please check if you plan to upload images. After posting issue, please attach screenshots to the comment section of your own issue."
-      options:
-      - label: "Yes"
-        required: false
-      - label: "No"
-        required: false
-    validations: 
-      required: false
 
