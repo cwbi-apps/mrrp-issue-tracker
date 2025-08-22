@@ -1,6 +1,6 @@
 name: Pallid Sturgeon
 description: Pallid Sturgeon Issue
-title: "-- Please provide brief summary --"
+title: "-- Please provide a one sentence summary --"
 labels: ["Pallid", "Open"]
 type: "Bug"
 body:
