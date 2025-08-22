@@ -2,7 +2,6 @@ name: Pallid Sturgeon
 description: Pallid Sturgeon Issue
 title: "-- Please provide brief summary --"
 labels: ["Pallid", "Open"]
-assignees: ["jhenr098", "jguevarra"]
 type: "Bug"
 body:
   - type: dropdown
@@ -30,7 +29,7 @@ body:
     id: background
     attributes:
       label: Background Information
-      description: "Provide details on what the issue is, how to replicate page names & URLs, copy & paste any necessary screenshots into the text area."
+      description: "Provide details on what the issue is, how to replicate, page names & URLs, copy/paste or upload any necessary screenshots into the text area."
     validations: 
       required: true
 
