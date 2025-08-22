@@ -19,8 +19,8 @@ body:
     attributes:
       label: Priority
       options: 
-        - High
         - Medium
+        - High
         - Low
     validations:
       required: true
