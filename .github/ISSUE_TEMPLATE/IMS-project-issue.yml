@@ -2,6 +2,7 @@ name: Information Management System
 description: IMS Issue
 title: "-- Please provide a one sentence summary --"
 labels: ["IMS", "Open"]
+assignees: ["charles-p-howe", "jhenr098"]
 type: "Bug"
 body:
   - type: dropdown
