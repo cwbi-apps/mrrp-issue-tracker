@@ -2,6 +2,7 @@ name: Pallid Sturgeon
 description: Pallid Sturgeon Issue
 title: "-- Please provide a one sentence summary --"
 labels: ["Pallid", "Open"]
+assignees: ["jguevarra", "jhenr098"]
 type: "Bug"
 body:
   - type: dropdown
