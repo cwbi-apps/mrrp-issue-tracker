@@ -1,0 +1,35 @@
+name: Terns & Plover - Field Maps
+description: Terns & Plover Issue
+title: "-- Please provide a one sentence summary --"
+labels: ["Terns", "Open"]
+assignees: ["ahargroves", "jakefulkerson"]
+type: "Bug"
+body:
+  - type: dropdown
+    id: env
+    attributes:
+      label: Environment
+      options:
+        - TEST
+        - PROD
+    validations:
+      required: true
+    
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options: 
+        - Medium
+        - High
+        - Low
+    validations:
+      required: true
+      
+  - type: textarea
+    id: background
+    attributes:
+      label: Background Information
+      description: "Provide details on what the issue is, how to replicate, page names & URLs, copy/paste or upload any necessary screenshots into the text area."
+    validations: 
+      required: true
