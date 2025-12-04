@@ -2,7 +2,7 @@ name: Terns & Plover
 description: Terns & Plover Issue
 title: "-- Please provide a one sentence summary --"
 labels: ["Terns", "Open"]
-assignees: ["clinch-tyler", "ahargroves"]
+assignees: ["clinch-tyler", "ahargroves", "jakefulkerson"]
 type: "Bug"
 body:
   - type: dropdown
