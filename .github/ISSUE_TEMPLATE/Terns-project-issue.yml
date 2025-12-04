@@ -1,8 +1,8 @@
-name: Terns & Plover
+name: Terns & Plover - Database
 description: Terns & Plover Issue
 title: "-- Please provide a one sentence summary --"
 labels: ["Terns", "Open"]
-assignees: ["clinch-tyler", "ahargroves", "jakefulkerson"]
+assignees: ["clinch-tyler"]
 type: "Bug"
 body:
   - type: dropdown
