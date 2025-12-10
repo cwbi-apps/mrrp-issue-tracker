@@ -1,7 +1,7 @@
 name: Terns & Plover - Field Maps
 description: Terns & Plover Issue
 title: "-- Please provide a one sentence summary --"
-labels: ["Terns", "Open"]
+labels: ["Terns", "Field Maps", "Open"]
 assignees: ["alicynh", "jakefulkerson"]
 type: "Bug"
 body:
