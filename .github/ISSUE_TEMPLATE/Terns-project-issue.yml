@@ -1,7 +1,7 @@
 name: Terns & Plover - Database
 description: Terns & Plover Issue
 title: "-- Please provide a one sentence summary --"
-labels: ["Terns", "Open"]
+labels: ["Terns - Database", "Open"]
 assignees: ["clinch-tyler"]
 type: "Bug"
 body:
